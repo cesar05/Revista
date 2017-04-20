@@ -1,0 +1,156 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="es">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width = 1050, user-scalable = no" />
+	<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
+	<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+	<style>
+		.titulo{
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			font-size: 30px;
+			margin-top:20px;
+			margin-bottom: 20px;
+		}
+		.texto{
+			padding: 10px;
+			text-align: justify;
+		}
+		.fondo{
+			background: url(fondos/fondo.jp);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="flipbook-viewport">
+		<div class="container">
+			<div class="flipbook">
+				<div class="fondo">
+					<center class="titulo">
+						Portada proyecto final					
+					</center>
+				 	<div class="texto">
+						SUSANA JARAMILLO
+					</div>
+				</div>
+
+				<div class="fondo">
+					<center class="titulo">
+						Introducción					
+					</center>
+				 	<div class="texto">
+						La integración del tratamiento psicológico y farmacológico se refiere al acompañamiento que debe haber entre ambas, para que el paciente psicótico pueda equilibrarse entre el contacto con la realidad y sus síntomas psicóticos, gracias a esta interacción entre estos tratamientos resulta en que un paciente psicótico-esquizofrénico pueda mantener una vida en gran medida normal pese a las recaídas que se le puedan presentar en determinado tiempo prolongado post-tratamiento, en este sentido son igual de importantes tanto las recaídas como la que calidad de vida este activa e intacta, los síntomas que usualmente se disminuyen con la complementación de los dos tipos de terapias son el aislamiento, inhibición social y familiar, limitaciones del lenguaje, dificultades en el cuidado de la apariencia física, disminución de la actividades, etc..  Ahora bien la importancia del acompañamiento familiar y social es fundamental para la evitar los episodios de recaídas, se conoce que entre mayor apoyo de la familia y menos hostilidad hacia el paciente hay menos presencia de recaídas desde el inicio del tratamiento en comparación a los pacientes que no tienen dicho acompañamiento y comprensión en el área social.
+En las siguientes páginas de la revista se hará un análisis más minucioso sobre cómo es la interacción de los tratamientos psicológicos y farmacológicos, como se podría tratar desde las diferentes corrientes psicológicas, como actúan los medicamentos en los organismos de estos pacientes, efectos secundarios de los medicamentos, episodios psicóticos-esquizofrénicos y desempeños de estos pacientes en los diferentes entornos (social, familiar, personal, laboral, etc…).		
+					</div>
+				</div>
+
+				<div class="fondo">
+					<center class="titulo">
+						JUSTIFICACIÓN					
+					</center>
+				 	<div class="texto">
+Por medio de este trabajo buscamos mostrar la integración entre tratamientos
+farmacológicos y  psicológicos  que intervienen en la psicosis, como sus efectos
+secundarios y técnicas psicológicas, provenientes de las corrientes, cognitiva conductual,
+psicodinámicas y humanistas; en lo cual se puede adquirir lo necesario de esta
+información recolectada, como tomar pautas que permitan un adecuado manejo de las
+técnicas acorde a la posología suministrada por el paciente y de esta manera brindar
+material que actualice el conocimiento y les aporte ideas a los estudiantes de psicología
+sobre la óptima combinación entre tratamientos farmacológicos y psicológicos para una
+mejor eficacia terapéutica a corto y largo plazo.
+					</div>
+				</div>
+				<div class="fondo">
+					<center class="titulo">
+						Portada proyecto final					
+					</center>
+				 	<span class="texto">
+						SUSANA JARAMILLO
+					</span>
+				</div>
+				<div class="fondo">
+					<center class="titulo">
+						Portada proyecto final					
+					</center>
+				 	<div class="texto">
+						SUSANA JARAMILLO
+					</div>
+				</div>
+				<div>
+					<center class="titulo">
+						Portada proyecto final					
+					</center>
+				 	<div class="texto">
+						SUSANA JARAMILLO
+					</div>
+				</div>
+				<!--
+				<div style="background-image:url(pages/2.jpg)"></div>
+				<div style="background-image:url(pages/3.jpg)"></div>
+				<div style="background-image:url(pages/4.jpg)"></div>
+				<div style="background-image:url(pages/5.jpg)"></div>
+				<div style="background-image:url(pages/6.jpg)"></div>
+				<div style="background-image:url(pages/7.jpg)"></div>
+				<div style="background-image:url(pages/8.jpg)"></div>
+				<div style="background-image:url(pages/9.jpg)"></div>
+				<div style="background-image:url(pages/10.jpg)"></div>
+				<div style="background-image:url(pages/11.jpg)"></div>
+				<div style="background-image:url(pages/12.jpg)"></div>
+				-->
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		function loadApp() {
+
+			// Create the flipbook
+
+			$('.flipbook').turn({
+				// Width
+
+				width: 922,
+
+				// Height
+
+				height: 600,
+
+				// Elevation
+
+				elevation: 50,
+
+				// Enable gradients
+
+				gradients: true,
+
+				// Auto center this flipbook
+
+				autoCenter: true
+
+			});
+		}
+
+		// Load the HTML4 version if there's not CSS transform
+
+		yepnope({
+			test: Modernizr.csstransforms,
+			yep: ['../../lib/turn.js'],
+			nope: ['../../lib/turn.html4.min.js'],
+			both: ['css/basic.css'],
+			complete: loadApp
+		});
+
+	</script>
+
+</body>
+
+</html>
