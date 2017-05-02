@@ -43,3 +43,10 @@
     padding: 10px;
     vertical-align: text-top;
 }
+.lista{
+    margin: 5px;
+    padding: 0px;
+}
+.lista >li{
+    padding-bottom: 5px;
+}
