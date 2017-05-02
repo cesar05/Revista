@@ -1,0 +1,45 @@
+.titulo{
+    font-family:cursive;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.subtitulo{
+    font-family:cursive;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;    
+}
+.texto{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+.texto1{
+    margin-bottom: 5px;
+}
+.portada{
+    background: url(../fondos/fondo2.jpg);
+}
+.fondo{
+    background: url(../fondos/fondo.png);
+}
+.fondo2{
+    background: url(../fondos/fondo2.jpg);
+}
+.fondo3{
+    background: url(../fondos/fondo3.jpg);
+}
+.fondo4{
+    background: url(../fondos/fondo4.jpg);
+}
+.sobretapa{
+    background: url(../fondos/fondo2.jpg);
+}
+.columna{
+    width: 40%;
+    padding: 10px;
+    vertical-align: text-top;
+}
